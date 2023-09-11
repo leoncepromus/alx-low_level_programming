@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (Succes)
  */
-
 int main(void)
 {
 	int tho;
@@ -13,7 +11,7 @@ int main(void)
 	int ten;
 	int bas;
 
-for ( tho = 0 ; tho < 10 ; tho++)
+for (tho = 0 ; tho < 10 ; tho++)
 {	
 
 	for (hun = 0 ; hun <= 10 ; hun++)
@@ -21,7 +19,7 @@ for ( tho = 0 ; tho < 10 ; tho++)
 	
 		for (ten = 0 ; ten < 10 ; ten++)
 		{
-			for ( bas = 0 ; bas < 10 ; bas++)
+			for (bas = 0 ; bas < 10 ; bas++)
 			{
 				putchar('0' + tho);
 				putchar('0' + hun);

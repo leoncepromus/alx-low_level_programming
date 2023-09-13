@@ -1,11 +1,4 @@
-/*
- * File: 0-putchar.c
- * Auth: code 
- *
- */
-
 #include "main.h"
-
 /**
  * main - Prints "_putchar" followed by a new line. _putchar
  *

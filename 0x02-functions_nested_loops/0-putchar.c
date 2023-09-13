@@ -1,14 +1,27 @@
-#include "main.h"
+/*
+ * File: 0-putchar.c
+ * Auth: code 
+ *
+ */
+
+#include ".h"
+
+/**
+ * main - Prints "_putchar" followed by a new line. _putchar
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-  char ch[10] = "_putchar";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-  int i;
-
-  for (i = 0; i < 8; i++)
-    {
-      _putchar(ch[i]);
-    }
-  _putchar(10);
-  return (0);
+	return (0);
 }

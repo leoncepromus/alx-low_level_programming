@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * @parameter: describe the void
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
